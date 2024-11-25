@@ -18,7 +18,7 @@ def main():
     epd.init()
 #    epd.Clear()
 
-    font = ImageFont.truetype('DejaVuSans.ttf', 24)
+    font = ImageFont.truetype('DejaVuSansMono.ttf', 24)
 
     epd.init_fast()
     Himage = Image.new('1', (epd.width, epd.height), 255)  # 255: clear the frame
